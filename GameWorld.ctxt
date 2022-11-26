@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=GameWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\r\n\ \r\n\ @Edison\ Lim\ (your\ name)\ \r\n\ @06/23/2021\ (a\ version\ number\ or\ a\ date)\r\n\ \r\n\ Instructions\:\r\n\ \ -\ Goal\ of\ the\ game\ is\ to\ try\ to\ get\ the\ highest\ score\ by\ destroying\ enemy\ ships\r\n\ \ -\ The\ game\ ends\ when\ you\ have\ 0\ HP\ or\ when\ you\ collide\ with\ an\ enemy\r\n\ \ -\ Click\ "WASD"\ to\ move\ around\r\n\ \ -\ Click\ or\ hold\ your\ mouse\ button\ to\ shoot\ lasers\r\n\ \ -\ Click\ "space"\ to\ launch\ a\ proton\ torpedo\ that\ does\ area\ of\ effect\ damage\r\n\ \ -\ Hold\ "shift"\ to\ boost\ in\ the\ direction\ you\ are\ facing\r\n\ \ -\ Click\ "1",\ "2",\ and\ "3"\ to\ upgrade\ boots,\ overheat,\ and\ proton\ torpedoes\ respectively\r\n\ \ -\ You\ can\ change\ your\ keybinds\ in\ the\ settings\ menu\ by\ clicking\ the\ keybind\ and\ click\ the\ new\ key\ you\ want\ to\ change\ it\ to\r\n\ \ \ \ or\ clicking\ the\ new\ key\ you\ want\ then\ click\ the\ keybind\ you\ want\ to\ change\ (only\ saves\ 64\ keyboard\ keys)\ \ \r\n\ \ -\ Have\ Fun\!\r\n\ \r\n\ Sound\ Credits\:\r\n\ \ -\ "Star\ Wars\ Main\ Theme"\ from\ John\ Williams\ at\ https\://open.spotify.com/search/star%20wars%20main%20title\r\n\ \ -\ "The\ Imperial\ March"\ from\ John\ Williams\ at\ https\://open.spotify.com/search/the%20imperial%20march\r\n\ \ -\ "Menu\ Click"\ from\ Christopherderp\ at\ https\://freesound.org/people/Christopherderp/sounds/333046/\r\n\ \ -\ "Menu\ Move"\ from\ Christopherderp\ at\ https\://freesound.org/people/Christopherderp/sounds/333042/\r\n\ \ -\ "X-Wing\ Flyby"\ from\ https\://www.soundboard.com/sb/starwarsfx\r\n\ \ -\ "X-Wing\ Laser"\ from\ https\://www.soundboard.com/sb/starwarsfx\r\n\ \ -\ "X-Wing\ Proton\ Torpedo"\ from\ https\://www.trekcore.com/audio/\r\n\ \ -\ "X-Wing\ Cooling"\ from\ Marregheriti\ at\ https\://freesound.org/people/Marregheriti/sounds/266102/\r\n\ \ -\ "X-Wing\ Boost"\ from\ https\://www.videvo.net/royalty-free-sound-effects/turbo/\r\n\ \ -\ "X-Wing\ Explosion"\ from\ https\://www.soundboard.com/sb/starwarsfx\r\n\ \ -\ "New\ Upgrade"\ from\ EminYILDIRIM\ at\ https\://freesound.org/people/EminYILDIRIM/sounds/566502/\r\n\ \ -\ "Upgrade\ Used"\ from\ EminYILDIRIM\ at\ https\://freesound.org/people/EminYILDIRIM/sounds/570425/\r\n\ \ -\ "TIE-Fighter\ Laser"\ from\ https\://www.soundboard.com/sb/starwarsfx\r\n\ \ -\ "TIE-Fighter\ Explosion"\ from\ https\://www.soundboard.com/sb/starwarsfx\r\n\ \ \r\n\ Code\ Credits\:\r\n\ \ -\ StatBar\ Class\ from\ Mr.\ Cohen\r\n\ \ -\ SuperSmoothMover\ Class\ from\ Mr.\ Cohen\r\n\ \ -\ sound\ arrays\ from\ Mr.\ Cohen\r\n\ \ -\ drawBackground(int\ width,\ int\ height,\ Color\ starColor)\ method\ (GameWorld)\ from\ Mr.\ Cohen\r\n\ \ -\ highscore\ update\ code\ (MainMenu)\ from\ https\://www.greenfoot.org/files/javadoc/\r\n\ \ -\ mouse\ over\ object\ detection\ code\ (Button)\ from\ Mr.\ Cohen\r\n\ \ -\ get\ player\ code\ (Enemy)\ from\ Mr.\ Cohen\r\n\ \ -\ get\ world\ code\ (AdvancedEnemy,\ NormalEnemy)\ from\ Mr.\ Cohen\r\n\ \ -\ boost\ code\ (Player)\ from\ Mr.\ Cohen\r\n\ \ -\ check\ key\ released\ code\ (Player)\ from\ danpost\ at\ https\://www.greenfoot.org/topics/57378/0\r\n\ \ -\ check\ mouse\ down\ code\ (Player)\ from\ danpost\ at\ https\://www.greenfoot.org/topics/8197/0\r\n\ \ -\ track\ class\ code\ (Projectile)\ from\ Mr.\ Cohen\r\n\ \ -\ collisionDetection()\ (Projectile)\ from\ Mr.\ Cohen\r\n\ \ -\ get\ enemies\ in\ range\ of\ explosion\ code\ (Projectile)\ from\ danpost\ on\ Greenfoot\r\n\ \ \r\n\ Bugs\:\r\n\ \ -\ one\ uncommon\ bug\ with\ the\ menu/background\ music's\ sound\ file\ giving\ an\ error,\ whether\ it\ is\ in\ mp3\ or\ wav\ format\ (currently\ in\ wav\ format)\r\n
+comment1.params=
+comment1.target=GameWorld()
+comment2.params=
+comment2.target=void\ started()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ stopped()
+comment5.params=
+comment5.target=void\ spawnEnemies()
+comment6.params=
+comment6.target=void\ stopMusic()
+comment7.params=width\ height\ starColor
+comment7.target=greenfoot.GreenfootImage\ drawBackground(int,\ int,\ greenfoot.Color)
+comment8.params=
+comment8.target=int\ getScore()
+comment9.params=score
+comment9.target=void\ setScore(int)
+numComments=10

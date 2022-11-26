@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=SettingsMenu
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ SettingsMenu\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=SettingsMenu()
+comment2.params=
+comment2.target=void\ started()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ stopped()
+comment5.params=button\ buttonStr\ userIndex
+comment5.target=void\ changeKey(Button,\ java.lang.String,\ int)
+comment6.params=
+comment6.target=void\ setKeybinds()
+comment7.params=key
+comment7.target=int\ getKeyNum(java.lang.String)
+comment8.params=keyNum
+comment8.target=java.lang.String\ getKeybind(int)
+numComments=9
